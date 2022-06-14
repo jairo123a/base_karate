@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+
+}
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenLocal()
+    maven { url "https://repo1.maven.org/maven2/" }
+}
+
+test {
+}
+
+dependencies {
+    testCompile group: 'com.intuit.karate', name: 'karate-apache', version: '0.7.0.2'
+    testCompile group: 'com.intuit.karate', name: 'karate-junit4', version: '0.7.0.2'
+}
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+test {
+    // pull cucumber options into the cucumber jvm
+    systemProperty "cucumber.options", System.properties.getProperty("cucumber.options")
+    // pull karate options into the jvm
+    systemProperty "karate.env", System.properties.getProperty("karate.env")
+    // ensure tests are always run
+    outputs.upToDateWhen { false }
+}
+

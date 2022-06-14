@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: ingresar al sitio y enviar un get para verificar un status 200" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-06-03T19:29:19" hostname="DESKTOP-6PKO5OB" time="1.677">
+  <properties/>
+  <testcase name="Given url 'https://reqres.in/api/users?page=2'" classname="Scenario: ingresar al sitio y enviar un get para verificar un status 200" time="0.0"/>
+  <testcase name="When method get" classname="Scenario: ingresar al sitio y enviar un get para verificar un status 200" time="0.0"/>
+  <testcase name="Then status 200" classname="Scenario: ingresar al sitio y enviar un get para verificar un status 200" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: ingresar al sitio y enviar un get para verificar un status 200" time="2.347"/>
+  <testcase name="Given url 'https://reqres.in/api/users?page=2'" classname="Scenario: ingresar al sitio y enviar un get para verificar un status 200" time="0.0"/>
+  <testcase name="When method get" classname="Scenario: ingresar al sitio y enviar un get para verificar un status 200" time="0.0"/>
+  <testcase name="Then status 200" classname="Scenario: ingresar al sitio y enviar un get para verificar un status 200" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: ingresar al sitio y enviar un get para verificar un status 200" time="0.266"/>
+  <system-out><![CDATA[14:29:19.118 [Test worker] ERROR com.intuit.karate - could not find or read file: karate-config.js, prefix: CLASSPATH
+14:29:19.126 [Test worker] WARN com.intuit.karate - skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+14:29:20.741 [Test worker] ERROR com.intuit.karate - could not find or read file: karate-config.js, prefix: CLASSPATH
+14:29:20.741 [Test worker] WARN com.intuit.karate - skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
